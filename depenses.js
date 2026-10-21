@@ -20,5 +20,7 @@ console.log(`Rapport de depenses à compléter pour ${nom}.`);
 console.log(`Total des dépenses : ${totalDepenses} FCFA`);
 console.log(`Budget restant : ${budgetRestant} FCFA`);
 console.log(`Budget respecté : ${budgetRespected ? 'Oui' : 'Non'}`);    
-
+console.log(`Dépenses détaillées : Transport : ${transport} FCFA, Alimentation : ${alimentation} FCFA, Loisirs : ${loisirs} FCFA`); 
+console.log(`Budget initial : ${budget} FCFA`);
+console.log(`Budget final : ${budgetRestant} FCFA`);
 
